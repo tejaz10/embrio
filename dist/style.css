@@ -623,6 +623,11 @@ video {
   color: rgb(147 51 234 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#364fc7\]:hover {
   --tw-text-opacity: 1;
   color: rgb(54 79 199 / var(--tw-text-opacity));
