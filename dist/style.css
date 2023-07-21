@@ -566,6 +566,10 @@ video {
   height: 3.5rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -594,6 +598,11 @@ video {
 
 .border-solid {
   border-style: solid;
+}
+
+.bg-indigo-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(129 140 248 / var(--tw-bg-opacity));
 }
 
 .align-middle {
