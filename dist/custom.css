@@ -1,0 +1,18 @@
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+  background-color: #fdf9ec;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: inline-block;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 1rem;
+    right: 2rem;
+  }
+}
