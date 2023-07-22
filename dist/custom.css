@@ -12,7 +12,7 @@
     display: inline-block;
     position: fixed;
     font-size: 1.5rem;
-    top: 1rem;
+    top: 0.6rem;
     right: 2rem;
   }
 }
@@ -28,4 +28,17 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.mob:hover {
+  border: 3px solid #333;
+  border-radius: 9px;
+}
+
+.mobile {
+  display: none;
+}
+
+.block {
+  display: block;
 }
